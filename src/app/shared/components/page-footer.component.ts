@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Auth0ResourceModel } from '@app/core';
+//import { Auth0ResourceModel } from '@app/core';
 
 @Component({
   selector: 'app-footer',
@@ -67,7 +67,7 @@ import { Auth0ResourceModel } from '@app/core';
   `,
 })
 export class PageFooterComponent {
-  resourceList: Auth0ResourceModel[] = [
+  resourceList = [
     {
       path: 'https://auth0.com/why-auth0/',
       label: 'Why Auth0',

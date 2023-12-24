@@ -69,7 +69,7 @@
 
 .button__login,
 .button__logout {
-  min-width: 8.4rem;
+  min-width: 10.4rem;
 
   border: 0.1rem solid var(--indigo);
   color: var(--white);
@@ -94,7 +94,7 @@
 }
 
 .button__sign-up {
-  min-width: 8.4rem;
+  min-width: 9.4rem;
 
   border: 0.1rem solid var(--white);
   color: var(--white);

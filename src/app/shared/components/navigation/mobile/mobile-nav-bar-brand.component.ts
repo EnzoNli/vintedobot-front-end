@@ -7,10 +7,10 @@ import { Component, EventEmitter, Output } from '@angular/core';
       <a (click)="onMobileNavBarBrandClick()" routerLink="/">
         <img
           class="mobile-nav-bar__logo"
-          src="https://cdn.auth0.com/blog/hub/code-samples/hello-world/auth0-logo.svg"
-          alt="Auth0 shield logo"
-          width="82"
-          height="24"
+          src="assets/logo.png"
+          alt="Vintedobot logo"
+          width="70"
+          style="height: 52px"
         />
       </a>
     </div>
