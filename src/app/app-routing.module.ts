@@ -13,12 +13,12 @@ const routes: Routes = [
     path: 'profile',
     loadChildren: () =>
       import('./features/profile/profile.module').then((m) => m.ProfileModule),
-      canActivate: [AuthGuard],
+    canActivate: [AuthGuard],
   },
   {
-    path: 'public',
+    path: 'pricing',
     loadChildren: () =>
-      import('./features/public/public.module').then((m) => m.PublicModule),
+      import('./features/pricing/pricing.module').then((m) => m.PricingModule),
   },
   {
     path: 'protected',
@@ -26,13 +26,13 @@ const routes: Routes = [
       import('./features/protected/protected.module').then(
         (m) => m.ProtectedModule
       ),
-      canActivate: [AuthGuard],
+    canActivate: [AuthGuard],
   },
   {
     path: 'admin',
     loadChildren: () =>
       import('./features/admin/admin.module').then((m) => m.AdminModule),
-      canActivate: [AuthGuard],
+    canActivate: [AuthGuard],
   },
   {
     path: 'callback',
